@@ -15,6 +15,9 @@
 *.iws
 *.iml
 *.ipr
+*.iml
+atlassian-ide-plugin.xml
+config/IntelliJ/codestyles/Default.xml
 
 ### NetBeans ###
 /nbproject/private/
@@ -23,3 +26,9 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+# etags
+TAGS/
+
+# Maven
+target/
