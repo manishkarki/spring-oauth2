@@ -1,6 +1,7 @@
 Elasticsearch - Logstash - Kibana with Spring boot oauth2
 =========================
 First, build the containers using service docker compose as::
+    
     $ docker-compose build 
 
 Running Containers with the docker-compose
