@@ -15,4 +15,4 @@ To consume SpringBoot oauth api:
 
     $ curl http://localhost:8087/user
     
-Logs are now ready to be viewed on Kibana: [http://localhost:5509](http://localhost:5509)
+Logs are now ready to be viewed on [Kibana](http://localhost:5509)
