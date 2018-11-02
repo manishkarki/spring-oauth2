@@ -11,7 +11,7 @@
 		<File name="File" fileName="${filename}">
 			<PatternLayout pattern="${defaultpattern}" />
 		</File>
-		<Socket name="socket" host="localhost" port="9999" reconnectionDelayMillis="5000">
+		<Socket name="socket" host="logstash" port="7777" reconnectionDelayMillis="5000">
 			<PatternLayout pattern="${defaultpattern}" />
 		</Socket>
 		<Console name="STDOUT" target="SYSTEM_OUT" follow="true">

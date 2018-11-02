@@ -1,22 +1,18 @@
 Elasticsearch - Logstash - Kibana with Spring boot oauth2
 =========================
-
-Building the ELK
----------------------
-Building the Containers
-----------------------
+First, build the containers using service docker compose as::
     $ docker-compose build 
 
 Running Containers with the docker-compose
 ---------------------
-To run these containers:
+Now run these built containers:
 
     $ docker-compose up
     
 Consuming Rest Service
 ---------------------
-To consume SpringBoot app user service:
+To consume SpringBoot oauth api:
 
-    $ curl http://localhost:8087/user/{userid}
+    $ curl http://localhost:8087/user
     
-To view generated logs on Kibana UI: [http://localhost:5601](http://localhost:5601)
+Logs are now ready to be viewed on Kibana: [http://localhost:5509](http://localhost:5509)
